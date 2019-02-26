@@ -41,8 +41,10 @@
 /*OVERLAY FADE*/
 /*
 idea behind it: 
-- width heigh of overlay are the width and height of the image (100%)
+- width height of overlay are the width and height of the image (100%)
 - once you hover over image, the overlay appears on top of that image
+- this will happen gradually since insede the generic overlay class we set the opacity to 0 and in the
+.container:hover class we set opacity to 1
 */
 .overlayFade{
 	height: 100%;
